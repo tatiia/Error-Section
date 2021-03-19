@@ -13,6 +13,11 @@
 		5B0B484326051A4E0047B3BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B484126051A4E0047B3BB /* Main.storyboard */; };
 		5B0B484526051A520047B3BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B484426051A520047B3BB /* Assets.xcassets */; };
 		5B0B484826051A520047B3BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B484626051A520047B3BB /* LaunchScreen.storyboard */; };
+		5B0B485126051C450047B3BB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B485026051C450047B3BB /* Alert.swift */; };
+		5B0B485626051F7E0047B3BB /* OddEvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B485526051F7E0047B3BB /* OddEvenViewController.swift */; };
+		5B0B485A260523120047B3BB /* numberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B4859260523120047B3BB /* numberCell.swift */; };
+		5B0B485D26053EE90047B3BB /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B485C26053EE80047B3BB /* headerView.xib */; };
+		5B0B486026053F0E0047B3BB /* headerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B485F26053F0E0047B3BB /* headerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5B0B484426051A520047B3BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0B484726051A520047B3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B0B484926051A520047B3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0B485026051C450047B3BB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5B0B485526051F7E0047B3BB /* OddEvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenViewController.swift; sourceTree = "<group>"; };
+		5B0B4859260523120047B3BB /* numberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberCell.swift; sourceTree = "<group>"; };
+		5B0B485C26053EE80047B3BB /* headerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headerView.xib; sourceTree = "<group>"; };
+		5B0B485F26053F0E0047B3BB /* headerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		5B0B483A26051A4E0047B3BB /* Error&Section */ = {
 			isa = PBXGroup;
 			children = (
+				5B0B485426051F610047B3BB /* VCs */,
 				5B0B483B26051A4E0047B3BB /* AppDelegate.swift */,
+				5B0B4859260523120047B3BB /* numberCell.swift */,
+				5B0B485C26053EE80047B3BB /* headerView.xib */,
+				5B0B485F26053F0E0047B3BB /* headerView.swift */,
 				5B0B483D26051A4E0047B3BB /* SceneDelegate.swift */,
-				5B0B483F26051A4E0047B3BB /* ViewController.swift */,
 				5B0B484126051A4E0047B3BB /* Main.storyboard */,
+				5B0B485026051C450047B3BB /* Alert.swift */,
 				5B0B484426051A520047B3BB /* Assets.xcassets */,
 				5B0B484626051A520047B3BB /* LaunchScreen.storyboard */,
 				5B0B484926051A520047B3BB /* Info.plist */,
 			);
 			path = "Error&Section";
+			sourceTree = "<group>";
+		};
+		5B0B485426051F610047B3BB /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				5B0B483F26051A4E0047B3BB /* ViewController.swift */,
+				5B0B485526051F7E0047B3BB /* OddEvenViewController.swift */,
+			);
+			path = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +150,7 @@
 				5B0B484826051A520047B3BB /* LaunchScreen.storyboard in Resources */,
 				5B0B484526051A520047B3BB /* Assets.xcassets in Resources */,
 				5B0B484326051A4E0047B3BB /* Main.storyboard in Resources */,
+				5B0B485D26053EE90047B3BB /* headerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +163,10 @@
 			files = (
 				5B0B484026051A4E0047B3BB /* ViewController.swift in Sources */,
 				5B0B483C26051A4E0047B3BB /* AppDelegate.swift in Sources */,
+				5B0B485626051F7E0047B3BB /* OddEvenViewController.swift in Sources */,
+				5B0B486026053F0E0047B3BB /* headerView.swift in Sources */,
+				5B0B485126051C450047B3BB /* Alert.swift in Sources */,
+				5B0B485A260523120047B3BB /* numberCell.swift in Sources */,
 				5B0B483E26051A4E0047B3BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
